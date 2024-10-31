@@ -12,7 +12,7 @@
 		</div>
 		<div id="about-creator">
 			<ul>
-				<li>Author Name &copy {new Date().getFullYear()}</li>
+				<li>0xNelli &copy {new Date().getFullYear()}</li>
 			</ul>
 		</div>
 	</section>

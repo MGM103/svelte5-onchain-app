@@ -1,3 +1,4 @@
+@use 'buttons';
 @use '@fontsource-variable/ubuntu-sans';
 
 // Light mode colours
@@ -12,14 +13,14 @@ $ACCENT-LIGHT: hsl(140, 80%, 20%);
 $DISABLED-LIGHT: hsl(220, 50%, 35%);
 
 // Dark mode colours
-$DARK-SURFACE-1: hsl(200, 50%, 10%);
-$DARK-SURFACE-2: hsl(200, 50%, 10%);
-$DARK-SURFACE-3: hsl(200, 50%, 10%);
+$DARK-SURFACE-1: hsl(220, 50%, 10%);
+$DARK-SURFACE-2: hsl(220, 50%, 10%);
+$DARK-SURFACE-3: hsl(220, 50%, 10%);
 $DARK-SHADOW-1: hsla(220, 50%, 90%, 0.3);
 $DARK-SHADOW-2: hsla(220, 50%, 90%, 0.15);
-$SECONDARY_DARK: hsl(200, 50%, 90%);
-$TERTIARY-DARK: hsl(260, 80%, 80%);
-$ACCENT-DARK: hsl(140, 80%, 80%);
+$SECONDARY_DARK: hsl(220, 50%, 90%);
+$TERTIARY-DARK: hsl(280, 80%, 80%);
+$ACCENT-DARK: hsl(160, 80%, 80%);
 $DISABLED-DARK: hsl(220, 50%, 75%);
 
 :root {

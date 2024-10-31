@@ -65,18 +65,18 @@
 		// 	z-index: 1;
 		// }
 
-		// &::before {
-		// 	content: '';
-		// 	background-color: var(--surface-1);
-		// 	box-shadow: var(--nav-shadow);
-		// 	height: 100%;
-		// 	top: 0;
-		// 	left: 50%;
-		// 	position: absolute;
-		// 	transform: translateX(-50%);
-		// 	transition: box-shadow 0.5s ease;
-		// 	width: 100vw;
-		// 	z-index: 0;
-		// }
+		&::before {
+			content: '';
+			background-color: var(--surface-1);
+			// box-shadow: var(--nav-shadow);
+			height: 100%;
+			top: 0;
+			left: 50%;
+			position: absolute;
+			transform: translateX(-50%);
+			transition: box-shadow 0.5s ease;
+			width: 100vw;
+			z-index: 0;
+		}
 	}
 </style>
