@@ -20,9 +20,5 @@
 		margin-inline: auto;
 		max-inline-size: 1080px;
 		padding-inline: 2rem;
-
-		@media (min-width: 1080px) {
-			padding-inline: 0;
-		}
 	}
 </style>
