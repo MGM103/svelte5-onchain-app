@@ -21,9 +21,7 @@
 			<h1 in:fade={{ delay: 1500, duration: 1000 }}>Yourself.</h1>
 
 			<button in:fade={{ delay: 2200, duration: 1000 }} class="shadow-btn">Raise funds</button>
-			<p in:typewriter={{ speed: 2, delay: 2250 }}>
-				Harness the power of crowd-sourced fundraising today
-			</p>
+			<p in:typewriter={{ delay: 2200 }}>Harness the power of crowd-sourced fundraising today</p>
 		{/if}
 	</section>
 </div>
@@ -33,6 +31,7 @@
 		align-items: center;
 		display: flex;
 		flex-direction: column;
+		height: 80vh;
 		justify-content: center;
 		margin-top: 60px;
 		padding: 2.5rem;
@@ -48,6 +47,7 @@
 		}
 
 		p {
+			margin-bottom: 0;
 			margin-top: 1rem;
 		}
 	}
