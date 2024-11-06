@@ -11,16 +11,16 @@
 	let fundRaisingContainer;
 	let donationContainer;
 
-	const observerOptions = {
-		root: null,
-		rootMargin: '0px',
-		threshold: [0, 0.2, 0.4, 0.6, 0.8, 1]
-	};
-
 	// LIFECYCLE LOGIC
 	onMount(() => {
 		landingPageVisible = true;
 		window.scrollTo(0, 0);
+
+		const observerOptions = {
+			root: null,
+			rootMargin: '0px',
+			threshold: [0, 0.2, 0.4, 0.6, 0.8, 1]
+		};
 
 		const fundRaisingPromoObserver = new IntersectionObserver(
 			renderFundRaisingPromo,
@@ -34,6 +34,9 @@
 		return () => {
 			fundRaisingPromoObserver.unobserve(fundRaisingContainer);
 			donationPromoObserver.unobserve(donationContainer);
+
+			fundRaisingPromoObserver.disconnect();
+			donationPromoObserver.disconnect();
 		};
 	});
 
@@ -41,7 +44,7 @@
 	const renderFundRaisingPromo = (entries) => {
 		const [entry] = entries;
 
-		if (entry.intersectionRatio >= 0.6) {
+		if (entry.intersectionRatio >= 0.4) {
 			fundRaisingPromoVisible = true;
 		} else {
 			fundRaisingPromoVisible = false;
@@ -51,7 +54,7 @@
 	const renderDonationPromo = (entries) => {
 		const [entry] = entries;
 
-		if (entry.intersectionRatio >= 0.6) {
+		if (entry.intersectionRatio >= 0.4) {
 			donationPromoVisible = true;
 		} else {
 			donationPromoVisible = false;
