@@ -1,5 +1,6 @@
 @use 'buttons';
 @use '@fontsource-variable/ubuntu-sans';
+@use '../animationsAndTransitions/fade.scss';
 
 // Light mode colours
 $LIGHT-SURFACE-1: hsl(200, 50%, 90%);
