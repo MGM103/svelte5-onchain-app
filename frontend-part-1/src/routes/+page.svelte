@@ -165,7 +165,7 @@
 	}
 
 	.promo-section {
-		min-height: max-content;
+		height: max-content;
 		opacity: 0;
 		padding-block: 5rem;
 		position: relative;

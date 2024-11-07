@@ -6,7 +6,7 @@
 	<ul id="links-container">
 		<li><a href="/fund-yourself">Fund yourself</a></li>
 		<li><a href="/fund-someone">Fund someone</a></li>
-		<button class="connect-btn">Connect</button>
+		<button>Connect</button>
 	</ul>
 </nav>
 

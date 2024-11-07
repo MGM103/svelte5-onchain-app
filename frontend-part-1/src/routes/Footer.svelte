@@ -12,7 +12,7 @@
 		</div>
 		<div id="about-creator">
 			<ul>
-				<li>0xNelli &copy {new Date().getFullYear()}</li>
+				<li>Go Fund Yourself &copy {new Date().getFullYear()}</li>
 			</ul>
 		</div>
 	</section>
